@@ -81,7 +81,7 @@ function echo_account_info($account) {
     $upload = $row['upload'];
     $download = $row['download'];
     $transfer = $row['transfer_limit'];
-    $protocol = "AES-256-CFB";
+    $protocol = "RC4-MD5";
     ?>
     <div class="input-group">
         <span class="input-group-addon">
