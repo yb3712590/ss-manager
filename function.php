@@ -71,7 +71,7 @@ function echo_account_info($account) {
     $uname = $account;
     $query = "select port,ss_passwd,email,active,utype,exp,upload,download,transfer_limit from user where uname='$uname'";
     $row = mysql_fetch_array(mysql_query($query));
-    $server = 'vgpapa.com';
+    $server = 'la.vgpapa.com';
     $port = $row['port'];
     $ss_passwd = $row['ss_passwd'];
     $email = $row['email'];
